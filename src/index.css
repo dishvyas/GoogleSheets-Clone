@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.highlight {
+  background-color: yellow !important;
+}
+
+.htCore td {
+  transition: all 0.2s ease-in-out;
+}
+
+.htCore td[style*="font-weight: bold"] {
+  font-weight: bold;
+}
+
+.htCore td[style*="font-style: italic"] {
+  font-style: italic;
+}
+
+.htCore td[style*="font-size"] {
+  font-size: var(--font-size, 12px); /* Default font size */
+}
+
+.htCore td[style*="color"] {
+  color: var(--text-color, black);
+}
